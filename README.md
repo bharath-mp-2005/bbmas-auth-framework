@@ -40,9 +40,9 @@ This repository contains the full implementation of a client-side multimodal con
 
 This project uses the **BB-MAS (Browser-Based Multi-modal Authentication Suite)** dataset.
 
-- **Source:** IEEE Dataport — https://ieee-dataport.org/documents/su-ais-bb-mas-browser-based-multi-modal-authentication-suite
+- **Source:** IEEE Dataport — https://ieee-dataport.org/open-access/su-ais-bb-mas-syracuse-university-and-assured-information-security-behavioral
 - **Citation:** M. Frank, T. Leitner, and M. Schurmann, "SU-AIS BB-MAS: A Multi-Modal Behavioral Authentication Dataset," IEEE Dataport, 2019.
-- The dataset is **not included** in this repository. You must download it separately from IEEE Dataport and agree to their terms of use.
+- The dataset is **not included** in this repository. It is freely available as open access on IEEE Dataport — no subscription required, only a free IEEE account.
 
 ### Dataset Setup
 
