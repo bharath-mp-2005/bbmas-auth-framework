@@ -1,0 +1,44 @@
+# ── Dataset — never commit ──────────────────────────────────
+BB-MAS_Dataset/
+*.csv
+data/
+datasets/
+
+# ── Output files ─────────────────────────────────────────────
+paper_per_user_results_final.csv
+paper_drift_results.csv
+paper_adversarial_results.csv
+*.csv
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ── Jupyter ──────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── TensorFlow / Model artifacts ─────────────────────────────
+*.h5
+*.keras
+saved_model/
+logs/
+
+# ── OS ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
