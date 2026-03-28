@@ -18,7 +18,7 @@ Expected results (80 users, LOUO, SMOTE):
   Wheel only       : AUC ~0.50 (degenerate — excluded from paper tables)
   K+M MLP fusion   : ~24.03%  EER   (fusion does NOT beat keystroke alone)
 
-Author : Bharath M P
+
 """
 
 import os
