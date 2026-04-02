@@ -1,8 +1,8 @@
 # Privacy-Preserving Adaptive Behavioral Fusion Framework for Web Continuous Authentication
 
 > **Paper:** "A Privacy-Preserving Adaptive Behavioral Fusion Framework for Web Continuous Authentication: Multi-User Evaluation on the BB-MAS Dataset"
-> **Authors:** Bharath Palanisamy Mettukadai, Hiba Fathima T K, Asad Irfan K
-> **Institution:** Department of Computer Science and Engineering, VIT Vellore
+> **Authors:** [Anonymized for Peer Review]
+> **Institution:** [Anonymized Institution]
 
 ---
 
@@ -81,8 +81,8 @@ BB-MAS_Dataset/
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://anonymous.4open.science/r/bbmas-auth-framework-xxxx/
+cd bbmas-auth-framework
 
 # Create virtual environment (recommended)
 python -m venv venv
@@ -198,18 +198,7 @@ After running `bbmas_auth_final.py`, the console prints:
 
 ## Citation
 
-If you use this code, please cite:
-
-```
-@inproceedings{bharath2025bbmas,
-  title     = {A Privacy-Preserving Adaptive Behavioral Fusion Framework
-               for Web Continuous Authentication: Multi-User Evaluation
-               on the BB-MAS Dataset},
-  author    = {Palanisamy Mettukadai, Bharath and Fathima T K, Hiba and Irfan K, Asad},
-  booktitle = {Proceedings of [Conference Name]},
-  year      = {2025}
-}
-```
+[Citation removed for double-blind review]
 
 ---
 

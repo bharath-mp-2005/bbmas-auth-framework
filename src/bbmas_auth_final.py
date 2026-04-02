@@ -51,9 +51,9 @@ tf.random.set_seed(42)
 # ==============================================================================
 # CONFIG  — only edit these lines
 # ==============================================================================
-BBMAS_ROOT          = r"C:\Users\mpbmp\Desktop\privacy-preserving-ca\bbmas-ca-framework\BB-MAS_Dataset"
+BBMAS_ROOT = r"./BB-MAS_Dataset"  # Update this to your local path
 CHUNK_KEY           = 50    # keystroke events per chunk
-CHUNK_MOUSE         = 50    # mouse events per chunk  (was 200 in old code)
+CHUNK_MOUSE         = 50    # mouse events per chunk
 CHUNK_WHEEL         = 20    # scroll events per chunk
 MIN_GENUINE_CHUNKS  = 15    # drop users with fewer genuine chunks than this
 

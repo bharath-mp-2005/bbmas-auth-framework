@@ -66,7 +66,7 @@ tf.random.set_seed(42)
 # ==============================================================================
 # CONFIG  — must match bbmas_auth_final.py
 # ==============================================================================
-BBMAS_ROOT         = r"C:\Users\mpbmp\Desktop\privacy-preserving-ca\bbmas-ca-framework\BB-MAS_Dataset"
+BBMAS_ROOT = r"./BB-MAS_Dataset"  # Update this to your local path
 CHUNK_KEY          = 50
 MIN_GENUINE_CHUNKS = 15
 
