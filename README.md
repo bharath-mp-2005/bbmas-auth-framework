@@ -1,14 +1,15 @@
-# Privacy-Preserving Adaptive Behavioral Fusion Framework for Web Continuous Authentication
+# A Privacy-Preserving Client-Side Behavioural Authentication Framework with Enriched Keystroke Features
 
-> **Paper:** "A Privacy-Preserving Adaptive Behavioral Fusion Framework for Web Continuous Authentication: Multi-User Evaluation on the BB-MAS Dataset"
-> **Authors:** Bharath Palanisamy Mettukadai, Hiba Fathima T K, Asad Irfan K
-> **Institution:** Department of Computer Science and Engineering, VIT Vellore
+> **Paper:** "A Privacy-Preserving Client-Side Behavioural Authentication Framework with Enriched Keystroke Features: Multi-User BB-MAS Evaluation"
+> **Authors:** Bharath Palanisamy Mettukadai, Hiba Fathima T K, Asad Irfan K, Mohankumar B
+> **Institution:** School of Computer Science and Engineering (SCOPE), Vellore Institute of Technology (VIT), Vellore
+> **Venue:** IEEE ICMICPS-2026
 
 ---
 
 ## Overview
 
-This repository contains the full implementation of a client-side multimodal continuous authentication (CA) framework using enriched behavioral biometrics (keystroke, mouse, scroll) evaluated on the BB-MAS dataset.
+This repository contains the full implementation of a client-side multimodal continuous authentication (CA) framework using enriched behavioural biometrics (keystroke, mouse, scroll) evaluated on the BB-MAS dataset.
 
 **Key Results (80 users, LOUO, SMOTE):**
 
@@ -38,10 +39,10 @@ This repository contains the full implementation of a client-side multimodal con
 
 ## Dataset
 
-This project uses the **BB-MAS (Browser-Based Multi-modal Authentication Suite)** dataset.
+This project uses the **BB-MAS (Behavioral Biometrics Multi-device and multi-Activity data from Same users)** dataset.
 
 - **Source:** IEEE Dataport — https://ieee-dataport.org/open-access/su-ais-bb-mas-syracuse-university-and-assured-information-security-behavioral
-- **Citation:** M. Frank, T. Leitner, and M. Schurmann, "SU-AIS BB-MAS: A Multi-Modal Behavioral Authentication Dataset," IEEE Dataport, 2019.
+- **Citation:** A. K. Belman, L. Wang, S. S. Iyengar, P. Sniatala, R. Wright, R. Dora, J. Baldwin, Z. Jin, and V. V. Phoha, "SU-AIS BB-MAS: Behavioral Biometrics Multi-device and multi-Activity data from Same users," IEEE Dataport, 2019, doi: 10.21227/rpaz-0h66.
 - The dataset is **not included** in this repository. It is freely available as open access on IEEE Dataport — no subscription required, only a free IEEE account.
 
 ### Dataset Setup
@@ -81,8 +82,8 @@ BB-MAS_Dataset/
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/bharath-mp-2005/bbmas-auth-framework.git
+cd bbmas-auth-framework
 
 # Create virtual environment (recommended)
 python -m venv venv
@@ -200,14 +201,12 @@ After running `bbmas_auth_final.py`, the console prints:
 
 If you use this code, please cite:
 
-```
-@inproceedings{bharath2025bbmas,
-  title     = {A Privacy-Preserving Adaptive Behavioral Fusion Framework
-               for Web Continuous Authentication: Multi-User Evaluation
-               on the BB-MAS Dataset},
-  author    = {Palanisamy Mettukadai, Bharath and Fathima T K, Hiba and Irfan K, Asad},
-  booktitle = {Proceedings of [Conference Name]},
-  year      = {2025}
+```bibtex
+@inproceedings{bharath2026bbmas,
+  title     = {A Privacy-Preserving Client-Side Behavioural Authentication Framework with Enriched Keystroke Features: Multi-User {BB-MAS} Evaluation},
+  author    = {Palanisamy Mettukadai, Bharath and Fathima T K, Hiba and Irfan K, Asad and Mohankumar, B.},
+  booktitle = {Proceedings of the IEEE International Conference on Machine Intelligence and Cyber Physical Systems (ICMICPS)},
+  year      = {2026}
 }
 ```
 
